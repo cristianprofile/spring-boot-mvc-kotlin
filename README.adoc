@@ -1,7 +1,7 @@
 # spring-boot-mvc-kotlin
 Example of Spring boot mvc kotling using dotenv library (load .env file custom environment vars)
 
-A port of the Ruby dotenv project for Java and Kotlin. Load environment variables from a .env file.
+A port of the Ruby dotenv project for Java and Kotlin. Load environment variables from a .env file. (same feature as docker works)
 
   https://github.com/cdimascio/java-dotenv
   
