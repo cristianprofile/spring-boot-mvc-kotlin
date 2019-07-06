@@ -1,2 +1,23 @@
 # spring-boot-mvc-kotlin
 Example of Spring boot mvc kotling using dotenv library (load .env file custom environment vars)
+
+A port of the Ruby dotenv project for Java and Kotlin. Load environment variables from a .env file.
+
+  https://github.com/cdimascio/java-dotenv
+  
+  
+
+image::/images/configure-dot-env-spring.png?raw=true[Configure Spring web using dot env]
+
+image::/images/use-dot-env.png?raw=true[Example of using dot env file]
+
+
+1. Run mvn clean install command needed to be able to create jar
+
+2. Move to your target directory and copy you .dev file
+
+3. Run your server using java -jar spring-web-kotlin-0.0.1-SNAPSHOT.jar
+
+4. Go to your browser and create a get request to http://localhost:8080/hello
+
+5. Enjoy with this simple solution using .dev file like a docker container :)
